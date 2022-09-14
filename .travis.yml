@@ -20,6 +20,6 @@ jobs:
        - "STUDIO_AUTHORIZATION_KEY=$STUDIO_AUTHORIZATION_KEY"
      edge:
        - source: travis-ci/dpl
-       - branch: main
+       - branch: master
      script:
        - python hello_world.py
