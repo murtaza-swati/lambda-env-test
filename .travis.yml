@@ -21,5 +21,7 @@ jobs:
      edge:
        - source: travis-ci/dpl
        - branch: master
+     on:
+       - branch: main
      script:
        - python hello_world.py
