@@ -12,7 +12,7 @@ jobs:
      function_name: "private_org_test_bsfy_func_142"
      role: "arn:aws:iam::341288657826:role/bsfy_lambda_role"
      runtime: "nodejs16.x"
-     handler_name: "lambda-test"
+     handler_name: "test"
      timeout: '120'
      environment:
        - "ENV=$ENV"
@@ -21,7 +21,5 @@ jobs:
      edge:
        - source: travis-ci/dpl
        - branch: master
-     on:
-       - branch: main
      script:
        - python hello_world.py
