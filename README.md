@@ -1,1 +1,2 @@
 # lambda-env-test
+check
