@@ -15,9 +15,9 @@ jobs:
      handler_name: "lambda-test"
      timeout: '120'
      environment:
-       - ENV="$ENV"
-       - SENTRY_DSN=test
-       - STUDIO_AUTHORIZATION_KEY="$STUDIO_AUTHORIZATION_KEY"
+       - "ENV=$ENV"
+       - "SENTRY_DSN=test"
+       - "STUDIO_AUTHORIZATION_KEY=$STUDIO_AUTHORIZATION_KEY"
      edge:
        - source: travis-ci/dpl
        - branch: main
