@@ -6,8 +6,8 @@ jobs:
      arch: amd64
      deploy:
      provider: lambda
-     access_key_id: $ACCESS_KEY_ID
-     secret_access_key: $SECRET_ACCESS_KEY
+     access_key_id: "$ACCESS_KEY_ID"
+     secret_access_key: "$SECRET_ACCESS_KEY"
      region: "$AWS_DEFAULT_REGION"
      function_name: private_org_test_bsfy_func_142
      role: arn:aws:iam::341288657826:role/bsfy_lambda_role
