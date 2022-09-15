@@ -24,3 +24,4 @@ jobs:
         zip: build/function.zip
         on:
           all_branches: true
+
