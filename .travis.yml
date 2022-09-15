@@ -1,6 +1,7 @@
 jobs:
   include:
-  - os: linux
+  - stage: "Tests"  
+    os: linux
     dist: focal
     language: python
     arch: amd64
