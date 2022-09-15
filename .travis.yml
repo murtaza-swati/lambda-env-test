@@ -19,6 +19,10 @@ jobs:
         region: us-east-1
         runtime: nodejs16.x
         zip: build/function.zip
+        environment:
+         - "ENV=$ENV"
+         - "SENTRY_DSN=test"
+         - "STUDIO_AUTHORIZATION_KEY=$STUDIO_AUTHORIZATION_KEY"
         edge:
           source: travis-ci/dpl
           branch: master
